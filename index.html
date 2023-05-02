@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Quiz</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Food Quiz</h1>
+    <form name="quiz">
+      <h2>Question 1:</h2>
+      <p>What is the national dish of Italy?</p>
+      <input type="radio" name="q1" value="a"> Spaghetti and meatballs<br>
+      <input type="radio" name="q1" value="b"> Tacos<br>
+      <input type="radio" name="q1" value="c"> Pizza<br>
+      <input type="radio" name="q1" value="d"> Sushi<br>
+
+      <h2>Question 2:</h2>
+      <p>What is the most popular type of cheese in the United States?</p>
+      <input type="radio" name="q2" value="a"> Cheddar<br>
+      <input type="radio" name="q2" value="b"> Brie<br>
+      <input type="radio" name="q2" value="c"> Feta<br>
+      <input type="radio" name="q2" value="d"> Swiss<br>
+
+      <!-- Repeat for Questions 3-8 -->
+
+      <input type="button" value="Submit" onclick="showResult()">
+    </form>
+    <div id="result"></div>
+
+  </body>
+</html>
