@@ -14,7 +14,7 @@ function showResult() {
 
     //If answer is Grape or Blueberry
     if (q1 == "c" || q1 == "d") {
-
+      score - 10;
     }
   
 
@@ -29,6 +29,7 @@ function showResult() {
 
     //If answer is Avocado or Tomato
     if (q2 == "b" || q2 == "d") {
+      score - 10;
 
     }
   
@@ -44,6 +45,7 @@ function showResult() {
 
     //If answer is Pastry or Cookie
     if (q3 == "b" || q3 == "c") {
+      score - 10;
 
     }
 
@@ -59,6 +61,7 @@ function showResult() {
 
     //If answer is Omelet or Cereal
     if (q4 == "b" || q4 == "d") {
+      score - 10;
 
     }
 
@@ -74,6 +77,7 @@ function showResult() {
 
     //If answer is Water or Juice
     if (q5 == "b" || q5 == "d") {
+      score - 10;
 
     }
 
@@ -89,6 +93,7 @@ function showResult() {
 
     //If answer is Sushi or Pizza
     if (q6 == "a" || q6 == "d") {
+      score - 10;
 
     }
 
@@ -104,6 +109,7 @@ function showResult() {
 
     //If answer is Savory or Spicy
     if (q7 == "c" || q7 == "d") {
+      score - 10;
 
     }
 
@@ -119,6 +125,7 @@ function showResult() {
 
     //If answer is Other
     if (q8 == "d") {
+      score - 10;
 
     }
 
