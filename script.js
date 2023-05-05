@@ -134,13 +134,13 @@ function showResult() {
     var scorePercentage = (score / totalQuestions) * 100;
   
     // Generate result message and image based on score percentage
-    if (scorePercentage >= 80) {
+    if (scorePercentage >= 75) {
       resultMessage = "Lavender Latte";
       resultImage = "excellent.jpg";
-    } else if (scorePercentage >= 60) {
+    } else if (scorePercentage >= 50) {
       resultMessage = "Tangerine Tuna";
       resultImage = "good.jpg";
-    } else if (scorePercentage >= 40) {
+    } else if (scorePercentage >= 25) {
       resultMessage = "Navy Noodles";
       resultImage = "better.jpg";
     } else {
