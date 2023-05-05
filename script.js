@@ -134,22 +134,24 @@ function showResult() {
     var scorePercentage = (score / totalQuestions) * 100;
   
     // Generate result message and image based on score percentage
-    if (scorePercentage >= 90) {
-      resultMessage = "Excellent job!";
+    if (scorePercentage >= 80) {
+      resultMessage = "Lavender Latte";
       resultImage = "excellent.jpg";
-    } else if (scorePercentage >= 70) {
-      resultMessage = "Good job!";
+    } else if (scorePercentage >= 60) {
+      resultMessage = "Tangerine Tuna";
       resultImage = "good.jpg";
-    } else if (scorePercentage >= 50) {
-      resultMessage = "You can do better.";
+    } else if (scorePercentage >= 40) {
+      resultMessage = "Navy Noodles";
       resultImage = "better.jpg";
     } else {
-      resultMessage = "You need to study more.";
+      resultMessage = "Ruby Radish";
       resultImage = "study.jpg";
     }
   
     // Display result message and image
     var resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "<h2>Your score: " + scorePercentage.toFixed(2) + "%</h2>" + "<p>" + resultMessage + "</p>" + "<img src='" + resultImage + "'>";
+    resultDiv.innerHTML = "<h2>Your character is: " + "<p>" + resultMessage + "</p>" + "<img src='" + resultImage + "'>";
+    // resultDiv.innerHTML = "<h2>Your score: " + scorePercentage.toFixed(2) + "%</h2>" + "<p>" + resultMessage + "</p>" + "<img src='" + resultImage + "'>";
+
   }
   
