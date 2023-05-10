@@ -136,16 +136,16 @@ function showResult() {
     // Generate result message and image based on score percentage
     if (scorePercentage >= 75) {
       resultMessage = "Lavender Latte";
-      resultImage = "excellent.jpg";
+      resultImage = "images/latte.png";
     } else if (scorePercentage >= 50) {
       resultMessage = "Tangerine Tuna";
       resultImage = "images/tuna.png";
     } else if (scorePercentage >= 25) {
       resultMessage = "Navy Noodles";
-      resultImage = "better.jpg";
+      resultImage = "images/noodles.png";
     } else {
       resultMessage = "Ruby Radish";
-      resultImage = "study.jpg";
+      resultImage = "images/radish.png";
     }
   
     // Display result message and image
