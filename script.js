@@ -139,7 +139,7 @@ function showResult() {
       resultImage = "excellent.jpg";
     } else if (scorePercentage >= 50) {
       resultMessage = "Tangerine Tuna";
-      resultImage = "good.jpg";
+      resultImage = "images/tuna.png";
     } else if (scorePercentage >= 25) {
       resultMessage = "Navy Noodles";
       resultImage = "better.jpg";
