@@ -1,7 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #101010;
+    /* background-image: url("images/bgfood.gif"); */
+    background-size:cover;
     background-color: #ede6ff;
+    height: 100vh;
+    margin-top:0vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
